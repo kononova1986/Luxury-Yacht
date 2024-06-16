@@ -1,0 +1,68 @@
+<section class="rent" id="rent">
+  <div class="container">
+    <div class="rent-wrap">
+      <div class="form-wrap">
+        <h2 class="rent-title">Rent a yacht now</h2>
+        <form class="rent-form">
+          <input
+            class="form-input"
+            type="text"
+            name="user-name"
+            pattern="[A-Za-z]"
+            placeholder="Full Name"
+          />
+          <input
+            class="form-input"
+            type="email"
+            name="user-email"
+            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+            placeholder="Email"
+          />
+          <input
+            class="form-input"
+            type="tel"
+            name="user-tel"
+            pattern="[0-9]{10}"
+            placeholder="Phone number"
+          />
+          <textarea
+            class="form-text-input"
+            name="comment"
+            placeholder="Comment"
+          ></textarea>
+          <button class="rent-btn" type="submit" title="Submit" >Send</button>
+        </form>
+      </div>
+      <picture>
+        <source
+          srcset="
+            ./images/rent/rent-img-dt-1x.jpg 1x,
+            ./images/rent/rent-img-dt-2x.jpg 2x
+          "
+          media="(min-width: 1158px)"
+        />
+        <source
+          srcset="
+            ./images/rent/rent-img-tab-1x.jpg 1x,
+            ./images/rent/rent-img-tab-2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            ./images/rent/rent-img-mob-1x.jpg 1x,
+            ./images/rent/rent-img-mob-2x.jpg 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <img
+          src="./images/rent/rent-img-mob-1x.jpg"
+          class="rent-img"
+          alt="Rent a yacht"
+          width="658"
+          height="534"
+        />
+      </picture>
+    </div>
+  </div>
+</section>

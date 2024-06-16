@@ -1,0 +1,242 @@
+.yachts-conteiner {
+    text-align: center;
+}
+
+.yachts-title {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
+}
+
+.benneti {
+    display:none;
+}
+
+.anna {
+    display: none;
+}
+
+.yachts-item {
+    width: 280px;
+    margin: 0 auto;
+    padding: 16px;
+    border-radius: 24px;
+    height: 478px;
+    background-color:#fbfbfb;
+}
+
+
+.yachts-img {
+
+}
+
+.yachts-arr-info{
+    display: flex;
+    justify-content: center;
+    gap: 125px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.yachts-subtitle-name {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.18;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: #1b414b;}
+
+.yachts-subtitle-comfort {
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #040306;
+}
+.yachts-svg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yachts-icon {
+    width: 272px;
+    stroke-width: 1px;
+    stroke: rgba(4, 3, 6, 0.1);
+    
+}
+.yachts-info-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.yachts-item-attributes {
+    text-align: start;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+        color: #040306;
+}
+.yachts-item-attributes:not(:last-child){
+    margin-bottom: 6px;
+}
+
+.yachts-item-details {
+    text-align: start;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: #040306;
+}
+.yachts-item-details:not(:last-child){
+    margin-bottom: 6px;
+}
+
+.yachts-btn {
+    border: 1px solid rgba(251, 251, 251, 0.35);
+    border-radius: 15px;
+    padding: 14px 32px;
+    min-width: 141px;
+    height: 46px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    background-color: #0e1823;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    display:inline-block;
+}
+.yachts-btn:hover,
+.yachts-btn:focus{
+    background-color: #fbfbfb;
+    color: #1b414b;
+}
+
+@media screen and (min-width: 375px) {
+    .yachts-item {
+        width: 335px;
+    }
+}
+
+/* *---------------------media----------------------- */
+/* ?---------------------tablet---------------------- */
+@media screen and (min-width: 768px) {
+    .benneti {
+        display:list-item;
+    }
+
+    .yachts-title {
+        padding-top: 150px;
+        padding-bottom: 75px;
+        font-size: 48px;
+    }
+
+    .yachts-list {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        gap: 32px;
+    }
+
+    .yachts-item {
+        width: 336px;
+        height: 508px;
+    }
+
+    .yachts-arr-info {
+        gap: 112px;
+    }
+
+    .yachts-ben-info {
+        display: flex;
+        justify-content: center;
+        gap: 22px;
+        margin-top: 32px;
+        margin-bottom: 16px;
+    }
+
+    .yachts-subtitle-name {
+        font-size: 16px;
+        line-height: 1.2;
+    }
+
+    .yachts-subtitle-comfort {
+        font-size: 13px;
+        line-height: 1.18;
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+
+    .yachts-info-container {
+        gap: 104px;
+    }
+
+    .yachts-btn {
+        padding: 14px 40px;
+        min-width: 179px;
+        height: 52px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.1;
+        background-color: #0e1823;
+        margin-top: 50px;
+        margin-bottom: 150px;
+    }
+}
+
+
+
+@media screen and (min-width: 1280px) {
+    .anna{
+        display: list-item;
+    }
+
+    .yachts-title{
+        padding-top: 150px;
+        padding-bottom: 75px;
+        font-size: 48px;
+    }
+
+    .yachts-item {
+        padding: 16px;
+        border-radius: 24px;
+        width: 377px;
+        height: 508px;
+    }
+
+    .yachts-arr-info {
+        gap: 153px;
+    }
+
+    .yachts-ben-info {
+        gap: 70px;
+    }
+
+    .yachts-icon{
+        width:313px;
+    }
+
+    .yachts-ann-info{
+        display: flex;
+        justify-content: center;
+        gap: 118px;
+        margin-top: 32px;
+        margin-bottom: 16px;
+    }
+
+    .yachts-info-container{
+        gap: 145px;    
+    }
+}
