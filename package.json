@@ -1,11 +1,11 @@
 {
-  "name": "front-end-avengers-project",
+  "name": "luxury-yacht",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/front-end-avengers-project/",
+    "build": "vite build --base=/Luxury-Yacht/",
     "preview": "vite preview"
   },
   "devDependencies": {
